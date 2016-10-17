@@ -13,9 +13,6 @@ class Vim74 < Formula
     sha256 "ace00ef6ad044ff2779c8f99fac6d5db3f91c2751f9dc7a9198ca911480a9cca" => :mavericks
   end
 
-  deprecated_option "disable-nls" => "without-nls"
-  deprecated_option "override-system-vi" => "with-override-system-vi"
-
   option "with-override-system-vi", "Override system vi"
   option "without-nls", "Build vim without National Language Support (translated messages, keymaps)"
   option "with-client-server", "Enable client/server mode"
