@@ -1,4 +1,4 @@
-class Vim < Formula
+class Vim74 < Formula
   desc "Vi \"workalike\" with many additional features"
   homepage "http://www.vim.org/"
   # *** Vim should be updated no more than once every 7 days ***
