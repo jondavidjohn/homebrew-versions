@@ -129,4 +129,3 @@ class Vim < Formula
     end
   end
 end
-0
