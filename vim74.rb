@@ -1,17 +1,8 @@
 class Vim74 < Formula
   desc "Vi \"workalike\" with many additional features"
   homepage "http://www.vim.org/"
-  # *** Vim should be updated no more than once every 7 days ***
   url "https://github.com/vim/vim/archive/v7.4.2367.tar.gz"
   sha256 "a9ae4031ccd73cc60e771e8bf9b3c8b7f10f63a67efce7f61cd694cd8d7cda5c"
-  head "https://github.com/vim/vim.git"
-
-  bottle do
-    sha256 "3abdbb854b7991d130804c4de81d6cf45cf5189acb90dbfa87ebb8207f9f5c20" => :sierra
-    sha256 "0281cba2aab18a0bcb5dce187aa652cbfcfc8b424f8683ca94a0252cc2240237" => :el_capitan
-    sha256 "8fe47d3288c426ac415e939366b706ac4579c6a6ab9a1a9f8785575f992c39a2" => :yosemite
-    sha256 "ace00ef6ad044ff2779c8f99fac6d5db3f91c2751f9dc7a9198ca911480a9cca" => :mavericks
-  end
 
   option "with-override-system-vi", "Override system vi"
   option "without-nls", "Build vim without National Language Support (translated messages, keymaps)"
